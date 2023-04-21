@@ -37,7 +37,7 @@ export default function Modal({ setOpen }) {
         //     {showModal ? (
         <>
             <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none w-auto"
+                className="justify-center backdrop-filter: blur(8px); items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none w-auto"
             >
                 {/* <div className="relative w-auto my-6 mx-auto max-w-3xl"> */}
                     {/*content*/}
